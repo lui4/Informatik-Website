@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <title>Luis Wiederholds Website</title>
+        <meta name="author" content="Luis Wiederhold">
+        <meta name="description" content="Luis Wiederhold 10b Informatik Website Projekt Humboldt Shule Wiesbaden">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="robots" content="none">
+
+        <link rel="stylesheet" href="../resources/css/index.css">
+        <link rel="icon shortcut" href="../resources/icons/favicon-16x16.png">
+    </head>
+
+    <body>
+        <header>
+            <div class="head">
+                <center>
+                    <h1 id="mywebsiteheader">Luis Wiederhold Startseite</h1>
+                </center>
+            </div>
+        </header>
+        <br><br><br>
+        <main>
+            <center><h1 style="color:#6694de">Schule</h1></center>
+            <center>
+                <article style=" width: 300px;border: 2px solid gray; padding: 10px; border-radius: 10px; margin: 5px;color:#6694de"> 
+                    <img src="../resources/images/Humboldt-Schule.jfif" alt="" width="300" height="250" class="alignnone size-medium wp-image-560930">
+                    <h1>Humboldt Schule</h1> 
+                    <p> 
+                        Zurzeit besuche ich das Humboldt Gymnasium Wiesbaden und bin in der Klasse 10. Klasse.
+                    </p>
+                </article> 
+            </center>
+            </br></br>
+            <center><h1 style="color:#6694de"> Hobbies</h1></center>
+            <center>
+                <article style=" width: 300px;border: 2px solid gray; padding: 10px; border-radius: 10px; margin: 5px;color:#6694de"> 
+                    <img src="../resources/images/Hantel.jpg" alt="" width="300" height="250" class="alignnone size-medium wp-image-560930">
+                    <h1>Sport</h1> 
+                    <p> 
+                        Ich gehe während meiner Freizeit gerne und oft ins Fitnessstudio, doch dies ist zur Zeit aufgrund von Corona eingeschränkt.
+                    </p> 
+
+                </article> 
+            </center>
+            </br></br>
+            <center>
+                <article style=" width: 300px;border: 2px solid gray; padding: 10px; border-radius: 10px; margin: 5px;color:#6694de"> 
+                    <img src="../resources/images/Programmieren.jpg" alt="" width="300" height="250" class="alignnone size-medium wp-image-560930">
+                    <h1>Programmieren</h1> 
+                    <p> 
+                        Eine weitere Leidenschaft von mir ist das Programmieren, von Golang bis C++.
+                    </p>
+                </article> 
+            </center>
+
+            <br><br><br><br>
+            <center><div style="width:430px">
+                <h1 style="color:#6694de;">Javascript generiertes Canvas</h1>
+                <canvas id="normalcanvas"></canvas>
+                <script>
+                    const canvas = document.querySelector('#normalcanvas');
+                    canvas.setAttribute('height', 300);
+                    canvas.setAttribute('width', 300);
+                    canvas.style.backgroundColor = 'black';
+
+                    console.log(canvas);
+                    const ctx = canvas.getContext('2d');
+                    ctx.fillStyle = '#1e5887';
+                    ctx.fillRect(100,100,100,100);
+                    ctx.fillStyle = '#6694de';
+                    ctx.fillRect(200,200,100,100);
+                    ctx.fillStyle = '#11212e';
+                    ctx.fillRect(0,0,100,100);
+                </script>
+            </div></center>
+        </main>
+        <center>
+        <br><br><br><br><br><br>
+        <a class="link" href="../site2/site2.html" target="_blank">Hier gehts zu der 2. Seite</a>
+        <div style="width: 0px; height:45px"></div>
+        <a class="link" href="../site3/site3.html" target="_blank">Hier gehts zu der 3. Seite</a>
+        <div style="width: 0px; height:45px"></div>
+        <a class="link" href="#mywebsiteheader">Gehe nach oben</a>
+        <br><br><br><br>
+        <address style="color:#6694de;">
+            <h2>Kontakt</h2>
+            <h3>Email:  <a href="mailto:luis.wiederhold@hschule.de">luis.wiederhold@hschule.de</a></h3>
+            <h3>Telefon Nummer: <a href="tel:+49-0151-65107180">+49 0151 65107180</a></h3>
+        </address>
+        </center>
+    </body>
+</html>
